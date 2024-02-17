@@ -7,6 +7,8 @@ void setup() {
 }
 
 void draw() {
+  if (mousePressed){
+  y=y-3;}
     background(0, 0, 40); 
     fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
